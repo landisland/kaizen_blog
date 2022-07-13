@@ -1,0 +1,2 @@
+# This is landisland's [kaizen blog](https://www.kaizen.landisland.blog) repo.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75306549-56cc-4f83-aee5-dcb36a2dbbc9/deploy-status)](https://app.netlify.com/sites/luminous-cucurucho-05d889/deploys)
