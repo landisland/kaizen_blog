@@ -29,7 +29,7 @@ body {
 
 html,
 body {
-  margin: 0;
+  margin: 60px;
   height: 100%;  /* 1. 需要将页面的高度设置成浏览器可视区域的高度 */
 
 }
