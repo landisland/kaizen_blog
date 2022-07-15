@@ -30,6 +30,7 @@ body {
 html,
 body {
   margin: 0;
+  height: 100%;  /* 1. 需要将页面的高度设置成浏览器可视区域的高度 */
 
 }
 
@@ -150,6 +151,9 @@ h6 {
   font-size: 1rem; }
 
 .container {
+  min-height: 100%; /* 2. 需要将容器的高度设置成100% */
+  position: relative; /* 3. 容器的position设置为relative，给子元素定位提供基点 */
+
   width: 100%;
   max-width: 38rem;
   margin: 0 auto;
@@ -170,6 +174,11 @@ h6 {
   margin-right: .25rem; }
 
 .site-footer {
+
+  position: absolute;
+  bottom: 0; /* 4. 设置页脚position为absolute之后，再将其bottom值设为0，即可使其处于页面的底部 */
+  text-align:center;
+
   margin: 3rem 0 0;
   font-size: .8125rem; }
   .site-footer [itemprop="sameAs"] + [itemprop="sameAs"] {
